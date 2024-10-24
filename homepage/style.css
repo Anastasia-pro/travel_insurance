@@ -5,6 +5,13 @@ hr {
     border-top: 3px solid #5200d983;
     margin-top: 100px;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    cursor: pointer;
+}
 .welcome-block {
     padding: 50px 0;
     display: flex;
@@ -234,6 +241,9 @@ hr {
 .footer-content__item-title,
 .footer-social__title {
     font-weight: 600;
+}
+.footer-content__item-text:hover {
+    cursor: pointer;
 }
 .footer-social__wrapper {
     max-width: 220px;
