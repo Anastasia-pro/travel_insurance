@@ -256,3 +256,64 @@ a:hover {
     gap: 15px;
     flex-wrap: wrap;
 }
+
+
+@media(max-width:900px) {
+    .welcome-block {
+        height: 50vh;
+    }
+    .welcome-block__search-title {
+        font-size: 32px;
+    }
+    .welcome-block__search-subtitle,
+    .describe-block__param-title {
+        font-size: 24px;
+    }
+    .bying-block__steps,
+    .reviews-block__slider {
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .describe-block__param img {
+        max-width: 250px;
+    }
+    .footer-wrapper {
+        display: flex;
+        gap: 40px 0;
+        flex-wrap: wrap;
+    }
+    .footer-social__wrapper {
+        max-width: 210px;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: normal;
+        gap: 20px;
+    }
+}
+
+@media(max-width:650px) { 
+    /* бургер */
+    .welcome-block__choose {
+        display: none;
+    }
+    .welcome-block__search-btn {
+        width: 170px;
+        font-size: 15px;
+    }
+    .describe-block__wrapper {
+        gap: 30px 0;
+    }
+    .describe-block__param {
+        flex-wrap: wrap;
+    }
+
+}
+@media(max-width:500px) { 
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+}

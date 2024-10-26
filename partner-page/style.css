@@ -266,3 +266,76 @@ a:hover {
     gap: 15px;
     flex-wrap: wrap;
 }
+
+@media(max-width: 1200px) {
+    .welcome-block {
+        height: 50vh;
+    }
+    .offers-block__list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .benefits-block__item {
+        max-width: 500px;
+    }
+    .benefits-block__list {
+        justify-content: center;
+    }
+    .work-block__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .widget-block__img,
+    .work-block__idea-img {
+        max-width: none;
+        width: 100%;
+    }
+} 
+@media(max-width:900px) {
+    .welcome-block__search-title {
+        font-size: 32px;
+    }
+    .welcome-block__search-subtitle {
+        font-size: 24px;
+    }
+    .reviews-block__slider {
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-wrapper {
+        display: flex;
+        gap: 40px 0;
+        flex-wrap: wrap;
+    }
+    .footer-social__wrapper {
+        max-width: 210px;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: normal;
+        gap: 20px;
+    }
+}
+
+@media(max-width:650px) { 
+    /* бургер */
+    .welcome-block__choose {
+        display: none;
+    }
+    .welcome-block__search-btn {
+        width: 170px;
+        font-size: 15px;
+    }
+
+}
+@media(max-width:500px) { 
+    .work-block__content-text{
+        font-size: 16px;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+}

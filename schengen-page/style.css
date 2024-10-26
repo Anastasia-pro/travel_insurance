@@ -307,3 +307,74 @@ a:hover {
     gap: 15px;
     flex-wrap: wrap;
 }
+@media(max-width: 1200px) {
+    .benefits-block__item {
+        max-width: 500px;
+    }
+    .benefits-block__list {
+        justify-content: center;
+    }
+    .whom-block__advant {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0 20px;
+    }
+    .whom-block__item {
+        padding: 0;
+    }
+    .whom-block__descript {
+        flex-direction: column;
+    }
+    .whom-block__descript-content {
+        max-width: none;
+    }
+}
+@media(max-width:900px) {
+    .welcome-block {
+        height: 50vh;
+    }
+    .welcome-block__search-title {
+        font-size: 32px;
+    }
+    .welcome-block__search-subtitle {
+        font-size: 24px;
+    }
+    .reviews-block__slider,
+    .bying-block__steps {
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-wrapper {
+        display: flex;
+        gap: 40px 0;
+        flex-wrap: wrap;
+    }
+    .footer-social__wrapper {
+        max-width: 210px;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: normal;
+        gap: 20px;
+    }
+}
+
+@media(max-width:650px) { 
+    /* бургер */
+    .welcome-block__choose {
+        display: none;
+    }
+    .welcome-block__search-btn {
+        width: 170px;
+        font-size: 15px;
+    }
+
+}
+@media(max-width:500px) { 
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+}
